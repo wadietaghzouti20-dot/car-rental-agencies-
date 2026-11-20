@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a2b">
+<meta name="description" content="Réservez votre véhicule en quelques étapes avec RENDEVO Rent.">
+<title>RENDEVO Rent — Location de voitures</title>
+<style>
+:root{--ink:#111b2d;--muted:#687386;--line:#e7eaf0;--paper:#fff;--soft:#f5f7fa;--gold:#d8ad67;--navy:#101a2b;--green:#16845b;--red:#b42318;--radius:18px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.topbar{background:var(--navy);color:#dbe3ef;font-size:12px;padding:10px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.11em;font-size:17px}.brandmark{width:36px;height:36px;border-radius:11px;background:var(--navy);color:var(--gold);display:grid;place-items:center;font-size:19px}.brand small{display:block;font-size:9px;letter-spacing:.23em;color:var(--muted);font-weight:650;margin-top:2px}.navlinks{display:flex;align-items:center;gap:28px;font-size:13px;color:#465165}.navlinks a{color:inherit;text-decoration:none}.navlinks a:hover{color:#a77936}.navbtn,.primary{background:var(--navy);color:#fff;border:0;border-radius:10px;padding:13px 19px;font-weight:700}.navbtn:hover,.primary:hover{background:#243651}.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:550px;height:550px;border:1px solid #ffffff12;border-radius:50%;right:-140px;top:-220px;box-shadow:0 0 0 65px #ffffff08,0 0 0 130px #ffffff05}.hero-inner{padding:76px 0 84px;position:relative;z-index:1;max-width:760px}.eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:11px;font-weight:800}.hero h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(42px,6vw,68px);line-height:1.06;letter-spacing:-.035em;margin:20px 0}.hero h1 em{color:var(--gold);font-weight:400}.hero p{color:#c1cada;max-width:530px;line-height:1.8;font-size:15px}.hero-actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.hero .primary{background:var(--gold);color:#172033}.secondary{border:1px solid #ffffff45;color:white;background:transparent;border-radius:10px;padding:12px 18px;font-weight:700}.trust{display:flex;gap:28px;margin-top:38px;color:#d2dae5;font-size:12px;flex-wrap:wrap}.trust span:before{content:"✓";color:var(--gold);margin-right:8px;font-weight:900}.section{padding:76px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:30px}.section-head h2{font:500 clamp(30px,4vw,42px)/1.12 Georgia,serif;margin:10px 0}.section-head p{color:var(--muted);font-size:13px;max-width:420px;line-height:1.7;margin:0}.eyebrow.dark{color:#a77936}.fleet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.vehicle{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff;transition:.2s}.vehicle:hover{transform:translateY(-3px);box-shadow:0 16px 35px #14213a0d}.car-art{height:175px;background:linear-gradient(135deg,#edf1f5,#dfe5ec);display:grid;place-items:center;position:relative;overflow:hidden}.car-art:before{content:"";position:absolute;width:230px;height:100px;border-radius:50%;background:#c8d1dc;filter:blur(28px);bottom:-45px}.car-icon{font-size:74px;position:relative;filter:drop-shadow(0 12px 8px #17203320)}.vehicle-body{padding:20px}.tag{display:inline-block;background:#f5f0e7;color:#89642e;padding:5px 9px;border-radius:99px;font-size:10px;font-weight:800;letter-spacing:.06em}.vehicle h3{font-size:18px;margin:12px 0 6px}.muted{color:var(--muted)}.vehicle-foot{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);margin-top:17px;padding-top:15px}.price{font-weight:850;font-size:17px}.price small{font-size:11px;color:var(--muted);font-weight:500}.book-small{background:#f1f3f6;border:0;border-radius:8px;padding:10px 12px;font-size:12px;font-weight:750}.steps{background:var(--soft)}.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.stepnum{font:italic 34px Georgia;color:#b98c4d}.steps h3{font-size:16px;margin:10px 0}.steps p{font-size:13px;line-height:1.7;color:var(--muted);margin:0}.booking-section{background:#f7f8fa}.booking-card{background:#fff;border:1px solid var(--line);border-radius:22px;max-width:850px;margin:auto;padding:clamp(22px,4vw,42px);box-shadow:0 20px 50px #1720330a}.booking-head{display:flex;justify-content:space-between;gap:16px;align-items:start;margin-bottom:25px}.booking-head h2{font:500 34px Georgia;margin:8px 0}.step-label{font-size:11px;color:var(--muted);font-weight:750;white-space:nowrap}.progress{height:4px;background:#edf0f4;border-radius:10px;margin:18px 0 28px;overflow:hidden}.progress span{display:block;height:100%;background:var(--gold);width:25%;transition:width .2s}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:8px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:750;color:#394457}.field input,.field select,.field textarea{width:100%;border:1px solid #dfe4eb;border-radius:10px;padding:13px 14px;background:#fff;color:var(--ink);outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#bd9557;box-shadow:0 0 0 3px #bd95571c}.field textarea{min-height:90px;resize:vertical}.form-actions{display:flex;justify-content:space-between;gap:12px;margin-top:25px}.ghost{background:#fff;border:1px solid #dfe4eb;border-radius:10px;padding:12px 18px;font-weight:700;color:#394457}.primary:disabled{opacity:.5;cursor:not-allowed}.notice{padding:13px 15px;border-radius:10px;font-size:13px;line-height:1.6;margin:14px 0;display:none}.notice.show{display:block}.notice.error{background:#fff0ef;color:var(--red)}.notice.success{background:#eaf7f0;color:#146c47}.summary{background:var(--soft);border-radius:12px;padding:17px;font-size:13px;line-height:1.9}.summary strong{color:var(--ink)}.checkline{display:flex;gap:10px;align-items:flex-start;font-size:12px;color:var(--muted);line-height:1.5;margin-top:15px}.checkline input{margin-top:2px}.hidden{display:none!important}.footer{background:var(--navy);color:#dce3ec;padding:42px 0}.footer-inner{display:flex;justify-content:space-between;gap:24px;align-items:center}.footer p{color:#aab5c5;font-size:12px}.footer a{color:var(--gold);text-decoration:none;font-size:12px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#142238;color:white;padding:12px 18px;border-radius:10px;font-size:13px;z-index:10;box-shadow:0 8px 25px #0002;display:none}.toast.show{display:block}
+@media(max-width:760px){.navlinks{display:none}.hero-inner{padding:58px 0}.fleet-grid{grid-template-columns:1fr 1fr}.steps-grid{grid-template-columns:1fr;gap:20px}.section{padding:55px 0}.section-head{display:block}.section-head p{margin-top:12px}.footer-inner{display:block}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}}
+@media(max-width:480px){.wrap{width:min(100% - 28px,1160px)}.fleet-grid{grid-template-columns:1fr}.topbar .wrap span:last-child{display:none}.hero h1{font-size:44px}.booking-head h2{font-size:29px}.form-actions button{flex:1}.trust{gap:12px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>LOCATION DE VÉHICULES · ORAN & ALGÉRIE</span><span>Un service simple, clair et fiable</span></div></div>
+<header class="wrap nav">
+ <a class="brand" href="#" aria-label="RENDEVO Rent accueil"><span class="brandmark">R</span><span>RENDEVO<small>RENT · MOBILITÉ</small></span></a>
+ <nav class="navlinks"><a href="#flotte">Notre flotte</a><a href="#comment">Comment ça marche</a><a href="#reservation">Réserver</a></nav>
+ <a class="navbtn" href="#reservation">Réserver un véhicule</a>
+</header>
+<main>
+<section class="hero"><div class="wrap"><div class="hero-inner">
+ <div class="eyebrow">Votre route commence ici</div>
+ <h1>La liberté de bouger.<br><em>À votre rythme.</em></h1>
+ <p>Choisissez votre véhicule, indiquez vos dates et envoyez votre demande de location en quelques étapes. L’agence vous recontacte pour confirmer les détails.</p>
+ <div class="hero-actions"><a class="primary" href="#reservation" style="text-decoration:none">Trouver un véhicule ↗</a><a class="secondary" href="#flotte" style="text-decoration:none">Découvrir la flotte</a></div>
+ <div class="trust"><span>Demande en ligne</span><span>Confirmation par l’agence</span><span>Annulation simple</span></div>
+</div></div></section>
+<section class="section" id="flotte"><div class="wrap">
+ <div class="section-head"><div><div class="eyebrow dark">Une flotte pour vos trajets</div><h2>Choisissez votre véhicule</h2></div><p>Les véhicules et tarifs affichés dépendent des informations fournies par l’agence. La disponibilité est vérifiée au moment de votre demande.</p></div>
+ <div class="fleet-grid" id="fleet"><div class="muted">Chargement de la flotte…</div></div>
+</div></section>
+<section class="section steps" id="comment"><div class="wrap">
+ <div class="section-head"><div><div class="eyebrow dark">Simple et transparent</div><h2>En trois étapes</h2></div></div>
+ <div class="steps-grid"><div><div class="stepnum">01</div><h3>Choisissez</h3><p>Sélectionnez un véhicule adapté à votre trajet et à votre budget.</p></div><div><div class="stepnum">02</div><h3>Renseignez vos dates</h3><p>Indiquez le départ, le retour et vos coordonnées.</p></div><div><div class="stepnum">03</div><h3>Recevez une réponse</h3><p>L’agence vérifie votre demande et vous contacte pour confirmer la location.</p></div></div>
+</div></section>
+<section class="section booking-section" id="reservation"><div class="wrap">
+ <div class="booking-card">
+  <div class="booking-head"><div><div class="eyebrow dark">Votre réservation</div><h2>Demande de location</h2><div class="muted" style="font-size:13px">Quelques informations suffisent pour commencer.</div></div><div class="step-label" id="stepLabel">ÉTAPE 1 SUR 4</div></div>
+  <div class="progress"><span id="progress"></span></div>
+  <div id="notice" class="notice"></div>
+  <form id="bookingForm" novalidate>
+   <div class="form-step" data-step="1">
+    <div class="form-grid">
+     <div class="field full"><label for="vehicleId">Véhicule souhaité *</label><select id="vehicleId" required><option value="">Chargement…</option></select></div>
+     <div class="field"><label for="pickupDate">Date de départ *</label><input id="pickupDate" type="date" required></div>
+     <div class="field"><label for="pickupTime">Heure de départ *</label><input id="pickupTime" type="time" value="09:00" required></div>
+     <div class="field"><label for="returnDate">Date de retour *</label><input id="returnDate" type="date" required></div>
+     <div class="field"><label for="returnTime">Heure de retour *</label><input id="returnTime" type="time" value="09:00" required></div>
+    </div>
+   </div>
+   <div class="form-step hidden" data-step="2"><div class="form-grid">
+    <div class="field"><label for="name">Nom complet *</label><input id="name" autocomplete="name" maxlength="100" required placeholder="Votre nom"></div>
+    <div class="field"><label for="phone">Téléphone *</label><input id="phone" type="tel" autocomplete="tel" maxlength="40" required placeholder="+213 …"></div>
+    <div class="field full"><label for="email">Adresse e-mail *</label><input id="email" type="email" autocomplete="email" maxlength="150" required placeholder="vous@exemple.com"></div>
+   </div></div>
+   <div class="form-step hidden" data-step="3"><div class="form-grid">
+    <div class="field"><label for="pickupLocation">Lieu de prise en charge</label><input id="pickupLocation" maxlength="120" placeholder="Ex. agence centre-ville"></div>
+    <div class="field"><label for="returnLocation">Lieu de retour</label><input id="returnLocation" maxlength="120" placeholder="Ex. même agence"></div>
+    <div class="field full"><label for="message">Informations complémentaires</label><textarea id="message" maxlength="1000" placeholder="Une précision utile pour l’agence…"></textarea></div>
+   </div></div>
+   <div class="form-step hidden" data-step="4">
+    <div class="summary" id="summary"></div>
+    <label class="checkline"><input type="checkbox" id="termsAccepted" required><span>Je confirme l’exactitude des informations et j’accepte que l’agence me contacte au sujet de cette demande de location. *</span></label>
+    <p class="muted" style="font-size:11px;line-height:1.6">Cette demande ne constitue pas une réservation confirmée. Le prix final, les conditions, les documents requis et la disponibilité seront confirmés directement par l’agence.</p>
+   </div>
+   <div class="form-actions"><button type="button" class="ghost" id="backBtn" disabled>Retour</button><button type="button" class="primary" id="nextBtn">Continuer</button></div>
+  </form>
+ </div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><div><div class="brand"><span class="brandmark" style="background:#fff;color:#172033">R</span><span>RENDEVO<small style="color:#aab5c5">RENT · MOBILITÉ</small></span></div><p>Une demande de location, simplement.</p></div><a href="#reservation">Commencer une réservation ↗</a></div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+/* IMPORTANT: replace with your deployed Google Apps Script Web App URL ending in /exec */
+const API_URL = 'PASTE_YOUR_RENDEVO_RENT_APPS_SCRIPT_EXEC_URL_HERE';
+let vehicles = [], currentStep = 1, busy = false;
+const $ = id => document.getElementById(id);
+const dateToday = () => { const d=new Date(); return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-'); };
+function apiReady(){return API_URL.startsWith('https://script.google.com/macros/s/') && API_URL.endsWith('/exec');}
+async function apiGet(params){
+ if(!apiReady()) throw new Error('Le backend n’est pas encore connecté. Ajoutez l’URL Apps Script dans la configuration.');
+ const u=new URL(API_URL); Object.entries(params).forEach(([k,v])=>u.searchParams.set(k,v));
+ const res=await fetch(u.toString()); if(!res.ok) throw new Error('Erreur de connexion au serveur.');
+ return await res.json();
+}
+async function apiPost(payload){
+ if(!apiReady()) throw new Error('Le backend n’est pas encore connecté. Ajoutez l’URL Apps Script dans la configuration.');
+ const res=await fetch(API_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)});
+ if(!res.ok) throw new Error('Erreur de connexion au serveur.');
+ return await res.json();
+}
+function toast(msg){$('toast').textContent=msg;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),3500);}
+function showNotice(msg,type='error'){$('notice').textContent=msg;$('notice').className='notice show '+type;}
+function clearNotice(){$('notice').className='notice';}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function money(n){return new Intl.NumberFormat('fr-FR').format(Number(n)||0)+' DA';}
+function vehicleName(v){return [v.brand,v.model].filter(Boolean).join(' ')||'Véhicule';}
+function renderFleet(){
+ const fleet=$('fleet'), select=$('vehicleId');
+ if(!vehicles.length){fleet.innerHTML='<p class="muted">La flotte sera bientôt disponible. Contactez l’agence pour plus d’informations.</p>';select.innerHTML='<option value="">Aucun véhicule disponible</option>';return;}
+ fleet.innerHTML=vehicles.map(v=>'<article class="vehicle"><div class="car-art">'+(v.imageUrl?'<img src="'+esc(v.imageUrl)+'" alt="'+esc(vehicleName(v))+'" style="width:100%;height:100%;object-fit:cover">':'<span class="car-icon">🚘</span>')+'</div><div class="vehicle-body"><span class="tag">'+esc(v.category||'VÉHICULE')+'</span><h3>'+esc(vehicleName(v))+'</h3><div class="muted" style="font-size:12px">Selon disponibilité de l’agence</div><div class="vehicle-foot"><div class="price">'+money(v.dailyRate)+' <small>/ jour</small></div><button class="book-small" data-book="'+esc(v.id)+'">Choisir</button></div></div></article>').join('');
+ select.innerHTML='<option value="">Sélectionner un véhicule</option>'+vehicles.map(v=>'<option value="'+esc(v.id)+'">'+esc(vehicleName(v))+' — '+money(v.dailyRate)+'/jour</option>').join('');
+ fleet.querySelectorAll('[data-book]').forEach(b=>b.addEventListener('click',()=>{$('vehicleId').value=b.dataset.book;document.querySelector('#reservation').scrollIntoView({behavior:'smooth'});}));
+}
+function validateStep(){
+ clearNotice();
+ if(currentStep===1){
+  const id=$('vehicleId').value, pd=$('pickupDate').value, pt=$('pickupTime').value, rd=$('returnDate').value, rt=$('returnTime').value;
+  if(!id||!pd||!pt||!rd||!rt){showNotice('Veuillez choisir un véhicule ainsi que les dates et heures de départ et de retour.');return false;}
+  if(new Date(pd+'T'+pt)<=new Date()){showNotice('La date de départ doit être dans le futur.');return false;}
+  if(new Date(rd+'T'+rt)<=new Date(pd+'T'+pt)){showNotice('Le retour doit être après le départ.');return false;}
+ }
+ if(currentStep===2){
+  if(!$('name').value.trim()||!$('phone').value.trim()||!$('email').checkValidity()){showNotice('Veuillez compléter votre nom, téléphone et adresse e-mail valide.');return false;}
+ }
+ if(currentStep===4&&!$('termsAccepted').checked){showNotice('Veuillez confirmer votre accord avant d’envoyer la demande.');return false;}
+ return true;
+}
+function selectedVehicle(){return vehicles.find(v=>v.id===$('vehicleId').value);}
+function renderSummary(){
+ const v=selectedVehicle(), pd=$('pickupDate').value,pt=$('pickupTime').value,rd=$('returnDate').value,rt=$('returnTime').value;
+ const days=Math.max(1,Math.ceil((new Date(rd+'T'+rt)-new Date(pd+'T'+pt))/86400000));
+ $('summary').innerHTML='<strong>Véhicule :</strong> '+esc(v?vehicleName(v):'—')+'<br><strong>Départ :</strong> '+esc(pd)+' à '+esc(pt)+'<br><strong>Retour :</strong> '+esc(rd)+' à '+esc(rt)+'<br><strong>Durée estimée :</strong> '+days+' jour(s)<br><strong>Estimation :</strong> '+money(days*(v?.dailyRate||0))+'<br><br><strong>Client :</strong> '+esc($('name').value)+'<br><strong>Téléphone :</strong> '+esc($('phone').value)+'<br><strong>E-mail :</strong> '+esc($('email').value);
+}
+function goStep(n){
+ currentStep=n;document.querySelectorAll('.form-step').forEach(s=>s.classList.toggle('hidden',Number(s.dataset.step)!==n));
+ $('stepLabel').textContent='ÉTAPE '+n+' SUR 4';$('progress').style.width=(n*25)+'%';$('backBtn').disabled=n===1;
+ $('nextBtn').textContent=n===4?'Envoyer la demande':'Continuer';if(n===4)renderSummary();clearNotice();
+}
+async function submitBooking(){
+ if(busy)return;busy=true;$('nextBtn').disabled=true;$('nextBtn').textContent='Envoi…';
+ try{
+  const payload={action:'book',vehicleId:$('vehicleId').value,pickupDate:$('pickupDate').value,pickupTime:$('pickupTime').value,returnDate:$('returnDate').value,returnTime:$('returnTime').value,name:$('name').value.trim(),phone:$('phone').value.trim(),email:$('email').value.trim(),pickupLocation:$('pickupLocation').value.trim(),returnLocation:$('returnLocation').value.trim(),message:$('message').value.trim(),termsAccepted:$('termsAccepted').checked};
+  const result=await apiPost(payload);if(!result.success)throw new Error(result.error||'La demande n’a pas pu être envoyée.');
+  const form=$('bookingForm');form.innerHTML='<div style="text-align:center;padding:22px 5px"><div style="font-size:42px">✓</div><div class="eyebrow dark">Demande envoyée</div><h2 style="font:500 34px Georgia">Merci, '+esc(payload.name)+'.</h2><p class="muted" style="line-height:1.7">Votre demande a bien été reçue. L’agence doit encore confirmer la disponibilité et les conditions de location.</p><div class="summary" style="text-align:left;margin:22px 0"><strong>Référence :</strong> '+esc(result.reference)+'<br><strong>Véhicule :</strong> '+esc(result.vehicle)+'<br><strong>Estimation :</strong> '+money(result.estimatedTotal)+'<br><strong>Statut :</strong> '+esc(result.status)+'</div><p style="font-size:12px;color:#687386">Un e-mail récapitulatif sera envoyé si le service de messagerie est disponible.</p><button type="button" class="primary" onclick="location.reload()">Nouvelle demande</button></div>';
+  $('stepLabel').textContent='DEMANDE ENREGISTRÉE';$('progress').style.width='100%';
+ }catch(err){showNotice(err.message||'Une erreur est survenue.');$('nextBtn').disabled=false;$('nextBtn').textContent='Envoyer la demande';}
+ finally{busy=false;}
+}
+$('pickupDate').min=dateToday();$('returnDate').min=dateToday();
+$('pickupDate').addEventListener('change',()=>{$('returnDate').min=$('pickupDate').value;if($('returnDate').value<$('pickupDate').value)$('returnDate').value=$('pickupDate').value;});
+$('backBtn').addEventListener('click',()=>{if(currentStep>1)goStep(currentStep-1);});
+$('nextBtn').addEventListener('click',async()=>{if(!validateStep())return;if(currentStep<4)goStep(currentStep+1);else await submitBooking();});
+async function init(){
+ try{const result=await apiGet({action:'vehicles'});if(!result.success)throw new Error(result.error||'Impossible de charger la flotte.');vehicles=result.vehicles||[];renderFleet();}
+ catch(e){$('fleet').innerHTML='<p class="muted">La flotte n’est pas encore connectée. '+esc(e.message)+'</p>';$('vehicleId').innerHTML='<option value="">Backend à connecter</option>';}
+}
+init();
+</script>
+</body></html>
