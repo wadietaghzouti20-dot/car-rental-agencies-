@@ -74,7 +74,7 @@
 <div class="toast" id="toast" role="status"></div>
 <script>
 /* IMPORTANT: replace with your deployed Google Apps Script Web App URL ending in /exec */
-const API_URL = 'PASTE_YOUR_RENDEVO_RENT_APPS_SCRIPT_EXEC_URL_HERE';
+const API_URL = 'https://script.google.com/macros/s/AKfycbyYcNzHpTW15lHQXbV-MjFLKVabIwkvrwG5A779T9jDZleBZQ-GfWS94L-UIEv-LmIu7Q/exec';
 let vehicles = [], currentStep = 1, busy = false;
 const $ = id => document.getElementById(id);
 const dateToday = () => { const d=new Date(); return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-'); };
